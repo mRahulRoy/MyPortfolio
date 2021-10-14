@@ -20,6 +20,61 @@
 }
 
 
+.loader-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    /* background-color: blueviolet; */
+}
+.loader{
+    width: 50%;
+    height: 20%;
+    /* background-color: burlywood; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 35px;
+    width: 35px;
+    border-radius: 25px;
+    margin: 10px;
+    background-color: black;
+   
+}
+.dot1{
+    animation: jump 0.8s 0.1s linear infinite;
+}
+.dot2{
+    animation: jump 0.6s 0.2s linear infinite;
+}
+.dot3{
+    animation: jump 0.6s 0.3s linear infinite;
+}
+.dot4{
+    animation: jump 0.6s 0.4s linear infinite;
+}
+.dot5{
+    animation: jump 0.6s 0.5s linear infinite;
+}
+.dot6{
+    animation: jump 0.6s 0.6s linear infinite;
+}
+.dot7{
+    animation: jump 0.6s 0.7s linear infinite;
+}
+@keyframes jump{
+    50%{
+        transform: translate(0,40px);
+    }
+} 
+
 /* colors */
 
 :root{
@@ -956,3 +1011,122 @@ nav .navbar .container .active{
     }
 
  }
+
+
+ @media (max-width:510px)
+ {
+     .container{
+         margin: 0 auto;
+     }
+     body{
+         overflow: auto;
+     }
+     .admin-image img{
+         display: none;
+     }
+
+     .school-building img{
+         width: 350px;
+         height: 250px;
+     }
+     .left-picture img{
+         height: 200px;
+         width: 200px;
+     }
+     .school-text,.college-text{
+         width: 400px;
+         background-color: var(--pure);
+     }
+     .school-text li,.college-text li{
+         color: black;
+         list-style: square;
+         font-size: 20px;
+     }
+     .email-input input{
+         text-align: center;
+         width: 420px;
+     }
+    
+     .inner-cont{
+         display: block;
+     }
+     .right-content h3{
+         text-align: center;
+         font-size: 40px;
+     }
+     .right-content p{
+         text-align: center;
+         font-size: 20px;
+     }
+     .left-admin-logo-div{
+         justify-content: center;
+         align-items: center;
+     }
+     .about{
+         display: block;
+         text-align: center;
+     }
+
+     .skills-cont h2{
+         font-size: 55px;
+         font-family: 'Times New Roman', Times, serif;
+     }
+     .box1,.box2{
+         text-align: center;
+         display: block;
+     }
+     .child img{
+         margin-top: 25px;
+     }
+     .child{
+         text-align: center;
+         height: 200px;
+         margin-bottom: 60px;
+     }
+     .parent{
+         position: relative;
+     }
+     .box2{
+         position: relative;
+         top: -50px;
+     }
+    
+     .banner-cont{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+     }
+     .banner-cont p{
+         width: 450px !important;
+      
+         margin: 20px 20px;
+         text-align: center;
+         font-size: 25px;
+     }
+    .hero-buttons{
+        margin-top: 20px;
+    }
+    .btn-primary{
+
+    }
+    .protfolio{
+        display: none;
+    }
+     .aspiring{
+         text-align: center;
+     }
+     .welcome span{
+         font-family:Verdana, Geneva, Tahoma, sans-serif;
+         font-size: 50px !important;
+     }
+   .menu{
+       flex-direction: column;
+   }
+   .menu a{
+       font-size: 20px!important;
+   }
+   .banner-cont div{
+       margin: 30px;
+   }
+ } 

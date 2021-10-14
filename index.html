@@ -10,10 +10,26 @@
     <title>Arscript</title>
 </head>
 
-<body>
+<body onload="myFunction()">
+
+    <div class="loader-cont" id="loader-cont">
+        <div class="loader">
+            <div class="box dot1">L</div>
+            <div class="box dot2">O</div>
+            <div class="box dot3">A</div>
+            <div class="box dot4">D</div>
+            <div class="box dot5">I</div>
+            <div class="box dot6">N</div>
+            <div class="box dot7">G</div>
+        </div>
+    </div>
+
+
+
+
     <header class=" topbar">
         <div class=" flex align-center justify-between">
-            <marquee behavior="" direction="">This is a Rahul Kumar Roy . I Am a Aspiring SoftWare Engineer</marquee>
+            <marquee behavior="" direction="">Welcome ! This is a Rahul Kumar Roy a Aspiring SoftWare Engineer.</marquee>
         </div>
     </header>
 
@@ -63,7 +79,7 @@
             <div class="welcome flex align-center">
                 <span class="admin-name">Rahul Roy</span>
             </div>
-            <h1>Aspiring <span class="software-text">SoftWare</span> Engineer</h1>
+            <h1 class="aspiring">Aspiring <span class="software-text">SoftWare</span> Engineer</h1>
             <p>Always find A way to help Other</p>
             <div class="hero-buttons">
                 <button class="btn btn-primary">Read More</button>
@@ -72,7 +88,7 @@
             <div class="admin-image rahul-pic">
                 <img src="index.png" alt="">
             </div>
-            </div>
+        </div>
     </header>
 
     <!--About me section -->
@@ -147,9 +163,9 @@
                     <img src="school.jpg" alt="">
                 </div>
                 <div class="school-text">
-                    <li>I have passed My 10th From Lord Krishna Convent School</li>
-                    <li>This school is situated in Sector 106 , Surat Nagar</li>
-                    <li>This School has a good architecture</li>
+                    <li>Passed 10th from Lord Krishna Convent School</li>
+                    <li>This school is situated in Sector 106.</li>
+                    <li>This School has a good architecture.</li>
 
                 </div>
             </div>
@@ -222,6 +238,17 @@
     </section>
 
 
+
+
+
+
+
+    <script>
+        var preloader = document.getElementById('loader-cont');
+        function myFunction(){
+           preloader.style.display = 'none';
+        }
+    </script>
 </body>
 
 </html>
