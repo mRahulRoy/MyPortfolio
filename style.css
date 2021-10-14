@@ -1107,9 +1107,7 @@ nav .navbar .container .active{
     .hero-buttons{
         margin-top: 20px;
     }
-    .btn-primary{
-
-    }
+    
     .protfolio{
         display: none;
     }
@@ -1124,6 +1122,7 @@ nav .navbar .container .active{
        flex-direction: column;
    }
    .menu a{
+       text-align: center;
        font-size: 20px!important;
    }
    .banner-cont div{
