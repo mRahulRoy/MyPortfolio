@@ -18,7 +18,9 @@
         max-width: 1152px;
     }
 }
-
+html{
+    scroll-behavior: smooth;
+}
 
 .loader-cont{
     display: flex;
