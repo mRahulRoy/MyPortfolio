@@ -117,6 +117,9 @@
 .topbar .container .auth{
     display: flex;
 }
+marquee{
+    font-family: 'Cairo', sans-serif;
+}
 
 .flex{
     display: flex;
@@ -154,7 +157,9 @@ nav .top .contact img{
 nav .top .time img{
     margin-right: 1rem;
 }
-
+.h56{
+    font-family: 'Roboto Mono', monospace;
+}
 .justify-center{
     justify-content: center;
 }
@@ -164,6 +169,7 @@ nav .navbar a{
     font-size: 1rem;
     padding: 1rem 1.5rem;
     transition: all .3s ease;
+    font-family: 'Roboto Mono', monospace;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
     -ms-transition: all .3s ease;
@@ -212,6 +218,9 @@ nav .navbar .container .active{
      color: var(--secondary);
      font-size: 2.5rem;
      margin-right: 1rem;
+ }
+ .welcome span{
+    font-family: 'Acme', sans-serif !important;
  }
  header.hero h1{
      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -292,7 +301,7 @@ nav .navbar .container .active{
      text-align: justify;
      padding: 50px;
      font-size: 20px;
-     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-family: 'Baloo Da 2', cursive;sans-serif;
  }
  /* skills CSs */
  .grand-parent{
@@ -305,13 +314,13 @@ nav .navbar .container .active{
         /* background-color: yellow; */
  }
  .grand-parent h2{
-     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
      margin-bottom: 50px;
      text-align: center;
-    font-size: 3.5rem;
-    position: absolute;
-    top: -45px;
-    padding: 50px 0;
+     font-size: 3.5rem;
+     position: absolute;
+     top: -45px;
+     padding: 50px 0;
+   font-family: cursive !important;
  }
  .parent{
      padding-top:120px;
@@ -394,7 +403,7 @@ nav .navbar .container .active{
 }
 .school-text{
     background-color: blueviolet;
-    border-radius: 25px;
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
     margin-left: 30px;
@@ -406,9 +415,10 @@ nav .navbar .container .active{
 .school-text li {
     font-size: 25px;
     color: #F0F0F0;
+    font-family: 'Roboto', sans-serif;
 }
 .college-text li{
-
+    font-family: 'Roboto', sans-serif;
     list-style:disc;
 }
 .college-text li{
@@ -417,7 +427,7 @@ nav .navbar .container .active{
 }
 .college-text{
     background-color: blueviolet;
-    border-radius: 25px;
+    border-radius: 10px;
     margin-left: 30px;
     display: flex;
     height: 100%;
@@ -434,7 +444,7 @@ nav .navbar .container .active{
  .school-building img{
      height: 200px;
      width: 300px;
-     border-radius: 25px;
+     border-radius: 15px;
  }
 
  /* college */
@@ -554,8 +564,8 @@ nav .navbar .container .active{
        display: flex;
        justify-content: space-between;
       
-
    }
+
    .svgcon img{
        height: 50px;
        width: 70px;
@@ -566,6 +576,7 @@ nav .navbar .container .active{
    .svgcon h5{
        margin-top: 12px;
        font-size: 1.5rem;
+       font-family: 'Cairo', sans-serif !important;
    }
    .handy-icons img{
        margin-right: 20px;
@@ -587,6 +598,7 @@ nav .navbar .container .active{
        height: 50px;
        justify-content: center;
        align-items: center;
+       font-family: 'Cairo', sans-serif;
    }
    .footer-text-cont span{
        color: var(--primary);
