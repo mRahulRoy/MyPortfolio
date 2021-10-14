@@ -1115,6 +1115,7 @@ nav .navbar .container .active{
          text-align: center;
      }
      .welcome span{
+         margin-right: -15px !important;
          font-family:Verdana, Geneva, Tahoma, sans-serif;
          font-size: 50px !important;
      }
@@ -1127,5 +1128,34 @@ nav .navbar .container .active{
    }
    .banner-cont div{
        margin: 30px;
+   }
+   .h56 h6{
+       color: black !important;
+   }
+
+   .contact-img-cont img {
+       display: none;
+   }
+   .icons-and-text{
+      
+       width: 500px;
+       justify-content: center;
+       align-items: center;
+   }
+   .email-icon img{
+       margin-left: 85px;
+       text-align: center;
+   }
+   .work-icon img{
+       margin-right: 40px;
+   }
+   .svgcon{
+       flex-direction: column;
+   }
+   .svgcon img{
+       margin-bottom: 10px;
+   }
+   .svgcon h5{
+       font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
    }
  } 
